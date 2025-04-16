@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Just Care Clothing</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        section {
+            padding: 40px 20px;
+        }
+        section#about {
+            background-color: #fff;
+        }
+        section#shop {
+            background-color: #ececec;
+        }
+        section#contact {
+            background-color: #fff;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Just Care Clothing</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#shop">Shop</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>At Just Care, we believe in creating clothing that's not just about style, but about making a statement. Our designs are crafted for the bold, the casual, and the fashion-forward. Whether you're lounging at home or stepping out for a night on the town, our collection has something for everyone.</p>
+    </section>
+
+    <section id="shop">
+        <h2>Shop Our Collection</h2>
+        <p>Discover our latest styles for the perfect blend of comfort and fashion. Explore our range of casual wear for all occasions, designed to keep you looking good while feeling great.</p>
+        <!-- Example Product Display -->
+        <div>
+            <h3>Product Name</h3>
+            <img src="product-image.jpg" alt="Product Image" style="width: 100%; max-width: 300px;">
+            <p>Price: $XX.XX</p>
+            <button>Add to Cart</button>
+        </div>
+        <!-- Add more products or product categories as needed -->
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Have any questions or need help? Reach out to us, and we'll be happy to assist you!</p>
+        <p>Email: support@justcare.com</p>
+        <p>Phone: +123 456 7890</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Just Care Clothing | All rights reserved</p>
+    </footer>
+
+</body>
+</html>
