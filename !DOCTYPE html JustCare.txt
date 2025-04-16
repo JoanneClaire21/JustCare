@@ -99,6 +99,6 @@
     <footer>
         <p>&copy; 2025 Just Care Clothing | All rights reserved</p>
     </footer>
-
+<link rel="stylesheet" href="assets/css/styles.css">
 </body>
 </html>
